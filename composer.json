@@ -1,0 +1,32 @@
+{
+    "name": "jowclides/notification",
+    "description": "This is a library that uses composer as the basis for generating e-mail notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emerson P Silva",
+            "email": "emerson.pereira@gmail.com",
+            "homepage": "https://www.coupled.com.br",
+            "role": "Full Stack PHP Developer"
+        },
+        {
+            "name": "João Loriato",
+            "email": "joao.loriato@coupled.com.br",
+            "homepage": "https://www.coupled.com.br",
+            "role": "Full Stack PHP Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.3"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
